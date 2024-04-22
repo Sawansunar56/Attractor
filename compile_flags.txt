@@ -1,0 +1,3 @@
+-I./attractor/vendor/imgui
+-I./attractor/vendor/rlImGui
+-I./attractor/vendor/raylib/include
