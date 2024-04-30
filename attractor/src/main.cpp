@@ -74,14 +74,14 @@ int main()
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Particle");
     rlImGuiSetup(true);
 
-    Ball attractee({100, 100}, {0, 0}, 10, .03);
-    Ball attractor({300, 400}, {0, 0}, 20, .02);
+    Ball attractee({100, 100}, {0, 0}, 10, .09);
+    Ball attractor({300, 400}, {0, 0}, 20, .9);
     std::vector<Ball> ballList;
     ballList.push_back(attractee);
     ballList.push_back(attractor);
     ballList.push_back(Ball({600, 200}, {0, 0}, 50, 0.2f));
-    ballList.push_back(Ball({400, 700}, {0, 0}, 50, 0.09f));
-    ballList.push_back(Ball({100, 500}, {0, 0}, 50, 0.8f));
+    ballList.push_back(Ball({400, 700}, {0, 0}, 50, 0.7f));
+    ballList.push_back(Ball({100, 500}, {0, 0}, 50, 0.5f));
 
     bool toggle  = true;
     int movement = 10;
